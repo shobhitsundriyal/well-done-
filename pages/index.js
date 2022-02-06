@@ -1,7 +1,16 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router'
+import { useRecoilValue } from 'recoil'
+import { userState } from '../atom/currentUserAtom'
 import Header from '../components/Header'
 
 export default function Home() {
+	const user = useRecoilValue(userState)
+
+	const router = useRouter()
+
+	console.log(user)
+
 	return (
 		<div className='overflow-hidden'>
 			<Head>
@@ -18,8 +27,20 @@ export default function Home() {
 					Be on track by Having to something lose
 				</span>
 				<div className='flex space-x-10 mt-14 z-10'>
-					<button className='button'>Search by address</button>
-					<button className='button'>Your Dashboard</button>
+					<button
+						className='button'
+						onClick={() => router.push('/Search')}
+					>
+						Search by address
+					</button>
+					{user && (
+						<button
+							className='button'
+							onClick={() => router.push('/Dashboard')}
+						>
+							Your Dashboard
+						</button>
+					)}
 				</div>
 			</div>
 		</div>

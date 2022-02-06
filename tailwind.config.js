@@ -24,6 +24,10 @@ module.exports = {
 					},
 				},
 			},
+			fontFamily: {
+				mochi: "'Mochiy Pop One', 'sans-serif'",
+				popins: "'Poppins', 'sans-serif'",
+			},
 		},
 	},
 	plugins: [],
