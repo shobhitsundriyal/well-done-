@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Card from '../components/Card'
 import Header from '../components/Header'
 import { ethers } from 'ethers'
-import { contractAddress, contractABI } from '../contractdetails'
+import { contractAddress, contractABI } from '../contractDetails'
 
 function Search() {
 	const [currentAccount, setCurrentAccount] = useState()

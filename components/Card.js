@@ -1,7 +1,7 @@
 import { ethers } from 'ethers'
 import Link from 'next/link'
 import { useState } from 'react'
-import { contractAddress, contractABI } from '../contractdetails'
+import { contractAddress, contractABI } from '../contractDetails'
 import List from './List'
 
 function Card({ title, status, acc }) {
