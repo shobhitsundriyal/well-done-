@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
 			<link
 				rel='preconnect'
 				href='https://fonts.gstatic.com'
-				crossorigin
+				crossOrigin
 			/>
 			<link
 				href='https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital@1&display=swap'
