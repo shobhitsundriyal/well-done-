@@ -14,7 +14,7 @@ contract WellDone {
     mapping (address => uint) currentIdx; // index of current project
 
     uint hours24 = 86400;
-    uint public costOfService = 0.01 ether; //change
+    uint public costOfService = 0.001 ether; //change
     uint public forOwner;
 
     struct ProjectsCreated {//what to do with this???
