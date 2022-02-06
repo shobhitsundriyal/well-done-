@@ -15,7 +15,7 @@ export default function Home() {
 		<div className='overflow-hidden'>
 			<Head>
 				<title>Well Done!!</title>
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/logo.ico' />
 			</Head>
 			<Header />
 			<div className='bg-slate-100 h-[90vh] flex flex-col items-center justify-center'>
