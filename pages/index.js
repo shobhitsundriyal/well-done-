@@ -24,7 +24,7 @@ export default function Home() {
 				<div className='absolute bottom-8 left-30 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000'></div>
 
 				<span className='max-w-5xl text-6xl font-extrabold text-center bg-gradient-to-bl from-emerald-500 to-lime-500 text-transparent bg-clip-text p-2 pb-10 z-10'>
-					Be on track by Having to something lose
+					Be on track by Having something to lose
 				</span>
 				<div className='flex space-x-10 mt-14 z-10'>
 					<button
